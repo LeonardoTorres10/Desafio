@@ -1,0 +1,57 @@
+   .galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    
+    }
+    
+    .div-01 { grid-area: 1 / 1 / 2 / 2; }
+    .div-02 { grid-area: 1 / 2 / 2 / 3; }
+
+    .tenho-intersse {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+        
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+
+    .galeria1 {
+
+        width: 300px;
+    }
+
+    .galeria2 {
+
+        padding-top: 80px;
+        width: 300px;
+    }
+
+    .galeria3 {
+        
+        padding-top: 280px;
+        width: 300px;
+    }
+
+    .galeria4 {
+        
+        padding-top: 280px;
+        width: 300px;
+    }
+
+    .galeria5 {
+
+        padding-top: 500px;
+        width: 300px;
+    }
+
+    .div10 {
+
+        width: 100px;
+        background-color: aqua;
+
+    }

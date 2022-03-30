@@ -1,0 +1,57 @@
+    .NossoOrgulho {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+    .orgulho {
+
+        text-align: center;
+
+    }
+
+    .ensino {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+    .div-1, .div-2  {
+
+        text-align: center;   
+         }
+        
+    .fundamental-1 {
+        
+        padding-top: 330px;
+
+         }
+
+    .fundamental-2 {
+
+        padding-top: 600px;
+
+        }
+
+    .ensino-medio {
+
+        padding-top: 900px;
+        }
+        
+    .div-1 { grid-area: 1 / 1 / 2 / 2; }
+    .div-2 { grid-area: 1 / 2 / 2 / 3; }
+
+    .fundamental-1, .fundamental-2, .infantil, .ensino-medio {
+
+        width: 350px;
+
+     }   
+
+

@@ -1,0 +1,104 @@
+    .metodologia {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    
+    .div01 { grid-area: 1 / 1 / 2 / 2; }
+    .div02 { grid-area: 1 / 2 / 2 / 3; }
+    .div03 { grid-area: 1 / 3 / 2 / 4; }
+
+    .metodologia {
+
+        text-align: center;
+
+    }
+    .pedagogia, .bncc {
+
+        padding-top:120px;
+    }
+    .robotica {
+
+        padding-top: 40px;
+    }
+
+    .p-2 {
+
+        padding-left: 60px;
+        padding-bottom: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
